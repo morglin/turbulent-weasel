@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgHook", "IgHook\IgHook.csproj", "{E7390CE3-2E8B-4CCB-9A60-6063332261C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{687C5F5B-4551-4351-A962-90E78ABC86DD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{699EC5EB-BDDD-4DA4-8B87-ED22519D082D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\IgHook-WAWS-dev.json = PublishScripts\Configurations\IgHook-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7390CE3-2E8B-4CCB-9A60-6063332261C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7390CE3-2E8B-4CCB-9A60-6063332261C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7390CE3-2E8B-4CCB-9A60-6063332261C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7390CE3-2E8B-4CCB-9A60-6063332261C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{699EC5EB-BDDD-4DA4-8B87-ED22519D082D} = {687C5F5B-4551-4351-A962-90E78ABC86DD}
+	EndGlobalSection
+EndGlobal
